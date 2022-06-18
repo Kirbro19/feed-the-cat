@@ -1,0 +1,37 @@
+{
+  "info": [
+    {
+      "id": 1,
+      "productName": "Нямушка",
+      "composition": "с фуа-гра",
+      "portions": 10,
+      "mice": 1,
+      "weight": 0.5,
+      "caption": "Печень утки разварная с артишоками.",
+      "satisfied": "",
+      "inStock": true
+    },
+    {
+      "id": 2,
+      "productName": "Нямушка",
+      "composition": "с рыбой",
+      "portions": 40,
+      "mice": 2,
+      "weight": 2,
+      "caption": "Головы щучьи с чесноком да свежайшая сёмгушка.",
+      "satisfied": "",
+      "inStock": true
+    },
+    {
+      "id": 3,
+      "productName": "Нямушка",
+      "composition": "с курой",
+      "portions": 100,
+      "mice": 5,
+      "weight": 5,
+      "caption": "Филе из цыплят с трюфелями в бульоне.",
+      "satisfied": "заказчик доволен",
+      "inStock": false
+    }
+  ]
+}

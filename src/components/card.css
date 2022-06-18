@@ -1,0 +1,202 @@
+.card {
+  width: 320px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.card:nth-child(2) {
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.card-border {
+  position: relative;
+  width: 320px;
+  height: 480px;
+  padding: 21px 0 0 51px;
+  border-radius: 11px;
+  background: linear-gradient(135deg, transparent 31px, #2EA8E6 0), 0 0,
+    no-repeat;
+  overflow: hidden;
+  z-index: -2;
+}
+
+.card-border::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  bottom: 4px;
+  left: 4px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, transparent 32px, #f2f2f2 0) top left;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.card-content {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  right: 4px;
+  bottom: 4px;
+  border-radius: 10px;
+  padding: 17px 0 0 48px;
+  overflow: hidden;
+}
+
+.card-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #666666;
+}
+
+.card-title-active {
+  color: #D91667;
+}
+
+.card-product-name {
+  margin: 5px 0 0 -3px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
+}
+
+.card-composition {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.card-portions {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #666666;
+}
+
+.portions {
+  margin: 14px 0 0 0px;
+  letter-spacing: 0.1px;
+}
+
+.mice {
+  letter-spacing: -0.05px;
+}
+
+.portions span,
+.mice span {
+  font-weight: 700;
+}
+
+.card-photo {
+  position: absolute;
+  bottom: -100px;
+  left: -30px;
+}
+
+.photo-blocked {
+  opacity: 0.5;
+}
+
+.card-weight {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+  height: 80px;
+  background: #2EA8E6;
+  border-radius: 50%;
+}
+
+.weight-selected {
+  background: #D91667;
+}
+
+.weight-count {
+  margin: 20px 0 0 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.weight {
+  margin-top: 6px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.weight-blocked {
+  background: #b3b3b3;
+}
+
+.card-caption {
+  margin-top: 14px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  color: #ffffff;
+  cursor: auto;
+}
+
+.selected {
+  background: linear-gradient(135deg, transparent 31px, #d91667 0), 0 0,
+    no-repeat;
+}
+
+.caption-blocked {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  color: #ffff66;
+  letter-spacing: -0.1px;
+  word-spacing: 0.5px;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px dashed #1698d9;
+  color: #1698d9;
+}
+
+.text-blocked {
+  color: #b3b3b3;
+}
+
+.blocked {
+  background: linear-gradient(135deg, transparent 31px, #b2b2b2 0), 0 0,
+    no-repeat;
+}
+
+@media (max-width: 1024px) {
+  .card:nth-child(3) {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .card:nth-child(1) {
+    margin-right: 0;
+  }
+}

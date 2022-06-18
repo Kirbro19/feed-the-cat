@@ -1,0 +1,36 @@
+.card-list {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.card-list-title {
+    text-align: center;
+    color: #D8D8D8;
+    font-family: "Exo2";
+    font-size: 36px;
+    text-shadow: 0px 1px 1px #000000;
+    
+}
+
+.card-list-wrapper {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+      
+  @media (max-width: 1024px) {
+    .card-list-wrapper {
+      flex-wrap: wrap;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .card-list-wrapper {
+      flex-wrap: wrap;
+    }
+  }
